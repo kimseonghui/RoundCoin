@@ -979,7 +979,7 @@ int64_t GetProofOfWorkReward(int64_t nFees)
     }
     else if (pindexBest->nHeight+1 <= LAST_POW_BLOCK)
     {
-      nSubsidy = 6767 * COIN;
+      nSubsidy = 2.34981 * COIN;
       return nSubsidy + nFees;
     }
 
